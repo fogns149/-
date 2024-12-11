@@ -4,15 +4,17 @@
 
 ## 팀원 구성
 
-웨인 (개인 Github 링크)
+김형준 (개인 Github 링크)
 
-제이든 (개인 Github 링크)
+엄성민 (개인 Github 링크)
 
-마크 (개인 Github 링크)
+이미르 (개인 Github 링크)
 
-데이지 (개인 Github 링크)
+이현서 (개인 Github 링크)
 
-제이 (개인 Github 링크)
+장래훈 (개인 Github 링크)
+
+정진호 (개인 Github 링크)
 
 ## 프로젝트 소개
 
