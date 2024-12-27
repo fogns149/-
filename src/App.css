@@ -1,85 +1,110 @@
 body {
   background-color: #f6f4ef;
-  height: 100vh; /* 120vh → 100vh로 수정 */
+  height: 120vh;
   margin: 0;
   font-family: Arial, sans-serif;
 }
 
 .Logo {
   position: relative;
-  margin: 20px auto;
+  top: 20px;
+  left: 230px;
 }
 
 .full {
+  position: relative;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
-  width: 90%; /* 유연한 너비 */
-  max-width: 1248px; /* 최대 너비 */
-  margin: 20px auto;
+  width: 1248px;
+  height: 774px;
+  border: none;
   background-color: white;
+  margin: 1px auto;
   border-radius: 30px;
-  padding: 20px; /* 패딩 추가 */
+  top: 70px;
 }
 
 .roqkf {
-  font-size: 2.5rem; /* 반응형 단위 */
-  text-align: center;
-  margin-bottom: 20px;
+  position: relative;
+  font-size: 30px;
+  right: 490px;
+  bottom: 70px;
 }
 
 .point {
-  font-size: 1.5rem;
-  text-align: center;
-  margin-bottom: 10px;
+  position: relative;
+  right: 510px;
+  bottom: 100px;
 }
 
 .pointButton {
-  width: 100px;
-  height: 35px;
-  font-size: 1rem;
-  text-align: center;
+  position: relative;
+  right: 540px;
+  bottom: 100px;
+  width: 108px;
+  height: 31px;
   border-radius: 30px;
   background-color: #ffffff;
   border: solid 1px #eae0e0;
 }
 
 .aa {
-  width: 100px;
-  height: 35px;
-  font-size: 1rem;
+  position: relative;
+  width: 83px;
+  height: 31px;
+  bottom: 30px;
+  right: 5px;
   border-radius: 20px;
   border: solid 1px rgb(226, 223, 223);
   background-color: white;
-  text-align: center;
 }
 
-.home,
-.todayhome {
-  width: auto;
-  padding: 10px 20px;
-  font-size: 1rem;
+.home {
+  position: relative;
+  width: 82px;
+  height: 48px;
   color: #818181;
   background-color: white;
   border: solid 1px #818181;
+  font-size: 15px;
   border-radius: 15px;
-  text-align: center;
+  right: -530px;
+  top: 34px;
 }
 
-.home:hover,
+.home:hover {
+  background-color: #94ad8b;
+}
+
+.todayhome {
+  position: relative;
+  width: 144px;
+  height: 48px;
+  color: #818181;
+  font-size: 15px;
+  border-radius: 15px;
+  border: solid 1px #818181;
+  background-color: white;
+  right: -410px;
+  top: -10px;
+}
+
 .todayhome:hover {
   background-color: #94ad8b;
 }
 
 .set-button {
+  position: relative;
   background-color: #578246;
   width: 250px;
   height: 80px;
-  font-size: 1.25rem;
+  font-size: 20px;
   color: #ffffff;
   border-radius: 30px;
-  text-align: center;
+  right: 70px;
+  bottom: 90px;
 }
 
 .set-button:hover {
@@ -87,68 +112,85 @@ body {
 }
 
 .container {
+  position: relative;
   display: flex;
   flex-direction: column;
+  width: 1168px;
+  height: 546px;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  max-width: 768px;
-  margin: 20px auto;
-  background-color: white;
-  border-radius: 20px;
-  padding: 20px;
   border: solid 1px #eae0e0;
+  top: -40px;
+  border-radius: 30px;
 }
 
 .btn {
-  width: 90%;
-  max-width: 333px;
+  position: relative;
+  width: 333px;
   height: 60px;
-  font-size: 1.25rem;
+  font-size: 30px;
   color: aliceblue;
   background-color: #818181;
   border-radius: 50px;
   border: solid 1px #818181;
-  text-align: center;
+  left: 10px;
+  top: 55px;
 }
 
 .btn:hover {
   background-color: #578246;
 }
 
+.title {
+  position: relative;
+  top: -30px;
+}
+
 .timer {
-  font-size: 4rem;
+  position: relative;
+  font-size: 7rem;
   font-weight: bold;
-  margin: 20px 0;
-  text-align: center;
+  top: 10px;
 }
 
 .button {
-  width: 60px;
-  height: 60px;
-  font-size: 1.5rem;
+  position: relative;
+  padding: 10px 20px;
+  font-size: 2rem;
   cursor: pointer;
   border: none;
   border-radius: 50%;
   background-color: #578246;
   color: white;
   transition: background-color 0.3s;
+  left: 240px;
+  top: -6px;
 }
 
 .button:hover {
   background-color: #94ad8b;
 }
 
+.buttons {
+  display: flex;
+  position: relative;
+  align-items: center;
+  gap: 140px;
+  top: 20px;
+}
+
 .BBB {
-  width: 60px;
-  height: 60px;
-  font-size: 1.5rem;
+  position: relative;
+  padding: 10px 20px;
+  font-size: 2rem;
   cursor: pointer;
   border: none;
   border-radius: 50%;
   background-color: #578246;
   color: white;
   transition: background-color 0.3s;
+  right: 220px;
+  top: 118px;
 }
 
 .BBB:hover {
@@ -156,78 +198,124 @@ body {
 }
 
 .time-input {
-  width: 80%;
-  max-width: 300px;
+  position: relative;
+  top: -20px;
+  right: -140px;
+  width: 180px;
   height: 50px;
-  font-size: 1.25rem;
+  font-size: 30px;
   text-align: center;
   border: solid 1px rgb(179, 175, 175);
-  border-radius: 10px;
-  margin: 10px 0;
 }
 
 .pause-message {
   display: flex;
+  position: absolute;
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 80%;
-  max-width: 300px;
-  font-size: 1rem;
-  height: 40px;
+  width: 223px;
+  height: 47px;
   border: solid 1px #fde0e9;
   background-color: #fde0e9;
   border-radius: 20px;
   color: red;
-  margin: 10px auto;
+  top: 600px;
 }
 
-/* 반응형 스타일 - 태블릿 (768px 이하) */
+/* 태블릿 (768px 이하) */
 @media (max-width: 768px) {
+  .full {
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+  }
+
   .roqkf {
-    font-size: 2rem;
+    font-size: 24px;
+  }
+
+  .point {
+    font-size: 14px;
+  }
+
+  .pointButton {
+    width: 90px;
+    height: 30px;
   }
 
   .btn {
-    font-size: 1.1rem;
+    font-size: 20px;
     height: 50px;
   }
 
+  .timer {
+    font-size: 5rem;
+  }
+
+  .BBB,
+  .button {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+
   .time-input {
-    font-size: 1.1rem;
+    font-size: 20px;
     height: 45px;
   }
 
   .pause-message {
-    font-size: 0.9rem;
-    height: 35px;
+    font-size: 14px;
+    height: 40px;
   }
 }
 
-/* 반응형 스타일 - 스마트폰 (480px 이하) */
+/* 스마트폰 (480px 이하) */
 @media (max-width: 480px) {
-  .roqkf {
-    font-size: 1.5rem;
-    margin-bottom: 15px;
+  .full {
+    width: 95%;
+    padding: 10px;
+    border-radius: 15px;
   }
 
-  .point,
+  .roqkf {
+    font-size: 20px;
+  }
+
+  .point {
+    font-size: 12px;
+  }
+
   .pointButton {
-    font-size: 1rem;
+    width: 80px;
+    height: 25px;
+    font-size: 12px;
   }
 
   .btn {
-    font-size: 1rem;
+    font-size: 16px;
     height: 40px;
   }
 
+  .timer {
+    font-size: 4rem;
+  }
+
+  .BBB,
+  .button {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+
   .time-input {
-    font-size: 1rem;
+    font-size: 16px;
     height: 40px;
   }
 
   .pause-message {
-    font-size: 0.8rem;
-    height: 30px;
+    font-size: 12px;
+    height: 35px;
   }
 }
